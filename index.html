@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohit Kumar - AI/ML, GenAI & Agentic AI Developer Portfolio. Building end-to-end RAG pipelines, Deep Learning vision models, and intelligent AI systems.">
+    <title>Mohit Kumar | AI/ML & GenAI Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>Mohit<span class="logo-bracket"> /&gt;</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rag-trace" class="nav-link">RAG Trace</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" type="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="home">
+        <!-- Animated background particles -->
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="container hero-content">
+            <div class="hero-badge reveal">
+                <span class="pulse-dot"></span> Open to AI/ML & Data Science Roles
+            </div>
+
+            <p class="hero-greeting reveal">Hello, I'm</p>
+            <h1 class="hero-name reveal">Mohit Kumar</h1>
+            <h2 class="hero-title reveal">
+                I'm a <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-desc reveal">
+                B.Tech CSE (AI/ML) student passionate about <strong>GenAI & RAG Systems</strong>, <strong>Agentic AI workflows</strong>, and Machine Learning. Experienced in turning complex models into reliable, production-ready intelligent applications.
+            </p>
+
+            <div class="hero-btns reveal">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-layer-group"></i> Explore Projects
+                </a>
+                <a href="Mohit_Kumar_Resume_Updated01.pdf" download class="btn btn-outline">
+                    <i class="fas fa-file-download"></i> Get Resume
+                </a>
+                <a href="#contact" class="btn btn-ghost">
+                    <i class="fas fa-envelope"></i> Let's Connect
+                </a>
+            </div>
+
+            <div class="hero-socials reveal">
+                <a href="https://github.com/mohit3015" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohit-kumar-9a33412b3/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Send Email via Gmail" title="Compose in Gmail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <!-- Quick Metrics / Stats Grid -->
+            <div class="hero-stats reveal">
+                <div class="stat-card">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">End-to-End AI Projects</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">91%+</span>
+                    <span class="stat-label">Deepfake Detection Acc</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">DeepEval RAG Metrics</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2026</span>
+                    <span class="stat-label">B.Tech Graduation</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Stack Infinite Marquee -->
+        <div class="marquee-wrapper reveal">
+            <div class="marquee-track" id="marqueeTrack">
+                <span><i class="fab fa-python"></i> Python</span>
+                <span><i class="fas fa-brain"></i> PyTorch</span>
+                <span><i class="fas fa-network-wired"></i> TensorFlow</span>
+                <span><i class="fas fa-link"></i> LangChain</span>
+                <span><i class="fas fa-database"></i> ChromaDB</span>
+                <span><i class="fas fa-check-double"></i> DeepEval</span>
+                <span><i class="fas fa-eye"></i> OpenCV</span>
+                <span><i class="fas fa-bolt"></i> FastAPI</span>
+                <span><i class="fas fa-chart-bar"></i> Scikit-Learn</span>
+                <span><i class="fas fa-terminal"></i> Streamlit</span>
+                <span><i class="fas fa-table"></i> Pandas & NumPy</span>
+                <span><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                <span><i class="fas fa-robot"></i> Agentic AI</span>
+                <span><i class="fas fa-shapes"></i> CNN Architecture</span>
+                <!-- Duplicate for seamless infinite loop -->
+                <span aria-hidden="true"><i class="fab fa-python"></i> Python</span>
+                <span aria-hidden="true"><i class="fas fa-brain"></i> PyTorch</span>
+                <span aria-hidden="true"><i class="fas fa-network-wired"></i> TensorFlow</span>
+                <span aria-hidden="true"><i class="fas fa-link"></i> LangChain</span>
+                <span aria-hidden="true"><i class="fas fa-database"></i> ChromaDB</span>
+                <span aria-hidden="true"><i class="fas fa-check-double"></i> DeepEval</span>
+                <span aria-hidden="true"><i class="fas fa-eye"></i> OpenCV</span>
+                <span aria-hidden="true"><i class="fas fa-bolt"></i> FastAPI</span>
+                <span aria-hidden="true"><i class="fas fa-chart-bar"></i> Scikit-Learn</span>
+                <span aria-hidden="true"><i class="fas fa-terminal"></i> Streamlit</span>
+                <span aria-hidden="true"><i class="fas fa-table"></i> Pandas & NumPy</span>
+                <span aria-hidden="true"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                <span aria-hidden="true"><i class="fas fa-robot"></i> Agentic AI</span>
+                <span aria-hidden="true"><i class="fas fa-shapes"></i> CNN Architecture</span>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <a href="#about" class="scroll-down" aria-label="Scroll to About section">
+            <span class="scroll-down-text">Scroll Down</span>
+            <i class="fas fa-chevron-down scroll-arrow"></i>
+        </a>
+    </section>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">01.</span> About Me
+            </h2>
+
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="image-wrapper">
+                        <img src="Mohit.jpg" alt="Mohit Kumar - AI/ML Engineer" class="profile-image">
+                        <div class="image-border"></div>
+                        <div class="image-badge">
+                            <i class="fas fa-code"></i> AI/ML Dev
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <p class="about-lead">
+                        Namaste! I'm <span class="highlight">Mohit Kumar</span>, a motivated B.Tech CSE (AI/ML) student at I.K. Gujral Punjab Technical University with hands-on experience in Python, Machine Learning, and Data Science. I'm proficient in building end-to-end ML & AI projects including advanced RAG pipelines, Agentic AI workflows, and predictive models, with a strong focus on measuring retrieval and answer quality using LLM-based evaluation frameworks.
+                    </p>
+                    <p>
+                        Hands-on experience with Python, NumPy, Pandas, Generative AI architectures, vector databases, and deep learning workflows through real-world AI projects. I'm passionate about solving complex real-world problems using cutting-edge RAG, GenAI, and Agentic AI technologies. Currently seeking opportunities in Machine Learning, AI, GenAI, and Data Science roles.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-user"></i> Name:</span>
+                            <span class="info-value">Mohit Kumar</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-graduation-cap"></i> Degree:</span>
+                            <span class="info-value">B.Tech CSE (AI/ML)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                            <span class="info-value">Giridih, Jharkhand</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-briefcase"></i> Status:</span>
+                            <span class="info-value status-available">Open to Work</span>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <a href="Mohit_Kumar_Resume_Updated01.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== INTERACTIVE RAG TRACE ===================== -->
+    <section class="section rag-trace-section" id="rag-trace">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">02.</span> RAG Request Trace
+            </h2>
+            <p class="section-subtitle reveal">
+                Interactive walkthrough of an enterprise RAG pipeline with retrieval, reranking, and DeepEval metric verification.
+            </p>
+
+            <div class="rag-trace-container reveal">
+                <div class="trace-header">
+                    <div class="trace-header-left">
+                        <span class="trace-dot"></span>
+                        <span class="trace-title">rag.execution.trace</span>
+                        <span class="trace-tag">DeepEval Verified</span>
+                    </div>
+                    <div class="trace-status" id="traceAutoStatus">
+                        <i class="fas fa-play-circle"></i> Auto-Cycling
+                    </div>
+                </div>
+
+                <!-- Stage Selector Tabs -->
+                <div class="trace-stages" id="traceStages" role="group" aria-label="Pipeline Stages">
+                    <button class="stage-btn active" type="button" data-stage="0" aria-pressed="true">
+                        <span class="stage-num">1</span> Query
+                    </button>
+                    <button class="stage-btn" type="button" data-stage="1" aria-pressed="false">
+                        <span class="stage-num">2</span> Embed
+                    </button>
+                    <button class="stage-btn" type="button" data-stage="2" aria-pressed="false">
+                        <span class="stage-num">3</span> Retrieve
+                    </button>
+                    <button class="stage-btn" type="button" data-stage="3" aria-pressed="false">
+                        <span class="stage-num">4</span> Rerank
+                    </button>
+                    <button class="stage-btn" type="button" data-stage="4" aria-pressed="false">
+                        <span class="stage-num">5</span> Evaluate & Generate
+                    </button>
+                </div>
+
+                <!-- Stage Rows Output -->
+                <div class="trace-rows" id="traceRows">
+                    <!-- Stage 0: Query -->
+                    <div class="trace-row active" data-stage="0">
+                        <div class="row-label">INPUT_QUERY</div>
+                        <div class="row-content">
+                            <div class="code-box">
+                                <span class="code-prompt">&gt;</span> "How does EfficientNet-B4 detect facial artifact patterns in deepfake media?"
+                            </div>
+                            <p class="row-expl">User query received and validated for token length, intent classification, and safety guardrails.</p>
+                        </div>
+                    </div>
+
+                    <!-- Stage 1: Embed -->
+                    <div class="trace-row" data-stage="1">
+                        <div class="row-label">VECTOR_EMBED</div>
+                        <div class="row-content">
+                            <div class="code-box">
+                                <span class="code-dim">// text-embedding-3-small (1536-dimensional vector)</span><br>
+                                <span class="code-highlight">[0.0241, -0.0189, 0.0892, 0.0034, -0.0715, ...]</span>
+                            </div>
+                            <p class="row-expl">Transformed user query into dense vector space utilizing the exact embedding model used in the ChromaDB index.</p>
+                        </div>
+                    </div>
+
+                    <!-- Stage 2: Retrieve -->
+                    <div class="trace-row" data-stage="2">
+                        <div class="row-label">CHROMADB_KNN</div>
+                        <div class="row-content">
+                            <div class="chunks-list">
+                                <div class="chunk-item">
+                                    <div class="chunk-meta">
+                                        <span><i class="fas fa-file-alt"></i> efficientnet_deepfake_paper.pdf — p.4</span>
+                                        <span class="chunk-score">Cosine: 0.91</span>
+                                    </div>
+                                    <div class="chunk-bar"><div class="chunk-fill" style="width: 91%"></div></div>
+                                </div>
+                                <div class="chunk-item">
+                                    <div class="chunk-meta">
+                                        <span><i class="fas fa-file-alt"></i> cnn_feature_maps_analysis.md — sec 2.1</span>
+                                        <span class="chunk-score">Cosine: 0.84</span>
+                                    </div>
+                                    <div class="chunk-bar"><div class="chunk-fill" style="width: 84%"></div></div>
+                                </div>
+                                <div class="chunk-item">
+                                    <div class="chunk-meta">
+                                        <span><i class="fas fa-file-alt"></i> training_hyperparameters.json — augmentations</span>
+                                        <span class="chunk-score">Cosine: 0.72</span>
+                                    </div>
+                                    <div class="chunk-bar"><div class="chunk-fill" style="width: 72%"></div></div>
+                                </div>
+                            </div>
+                            <p class="row-expl">Retrieved Top-K (K=3) semantic neighbors from local ChromaDB collection.</p>
+                        </div>
+                    </div>
+
+                    <!-- Stage 3: Rerank -->
+                    <div class="trace-row" data-stage="3">
+                        <div class="row-label">CROSS_ENCODER</div>
+                        <div class="row-content">
+                            <div class="code-box">
+                                <span class="status-pass"><i class="fas fa-check"></i> Retained (Score 0.94):</span> efficientnet_deepfake_paper.pdf<br>
+                                <span class="status-pass"><i class="fas fa-check"></i> Retained (Score 0.88):</span> cnn_feature_maps_analysis.md<br>
+                                <span class="status-drop"><i class="fas fa-times"></i> Pruned (Score 0.41):</span> training_hyperparameters.json (low contextual relevance)
+                            </div>
+                            <p class="row-expl">Cross-encoder reranker refined retrieved contexts, dropping noise to prevent context stuffing and hallucination.</p>
+                        </div>
+                    </div>
+
+                    <!-- Stage 4: Evaluate & Generate -->
+                    <div class="trace-row" data-stage="4">
+                        <div class="row-label">DEEPEVAL_EVAL</div>
+                        <div class="row-content">
+                            <div class="eval-metrics-grid">
+                                <div class="metric-pill pass">
+                                    <span class="metric-name">Faithfulness</span>
+                                    <span class="metric-val">0.96 / 1.0 (PASS)</span>
+                                </div>
+                                <div class="metric-pill pass">
+                                    <span class="metric-name">Answer Relevancy</span>
+                                    <span class="metric-val">0.94 / 1.0 (PASS)</span>
+                                </div>
+                                <div class="metric-pill pass">
+                                    <span class="metric-name">Contextual Recall</span>
+                                    <span class="metric-val">0.91 / 1.0 (PASS)</span>
+                                </div>
+                            </div>
+                            <div class="code-box generated-response">
+                                <span class="code-label">// Grounded LLM Response with Citations:</span><br>
+                                "EfficientNet-B4 captures multi-scale frequency anomalies and blending artifacts around facial boundaries using compound scaling (depth, width, resolution). Feature maps detect inconsistencies between genuine skin texture and GAN-generated synthetic artifacts [1][2]."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trace-footer">
+                    <span><i class="fas fa-info-circle"></i> Pipeline architecture mirrored from Mohit's <strong>RAG Evaluation Suite</strong> project.</span>
+                    <button class="trace-pause-btn" id="tracePauseBtn" type="button">Pause Auto-Cycle</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SKILLS SECTION ===================== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">03.</span> Technical Skills
+            </h2>
+            <p class="section-subtitle reveal">
+                Grouped by architecture layers, from Generative AI & LLMs to Machine Learning, Vision, and Tools.
+            </p>
+
+            <div class="skills-categories-grid">
+                <!-- Category 1: Generative AI & LLMs (1st) -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-network-wired"></i></div>
+                        <div>
+                            <h3 class="cat-title">Generative AI & LLMs</h3>
+                            <span class="cat-sub">Retrieval, Agents & Evaluation</span>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <span class="skill-chip highlight"><i class="fas fa-link"></i> LangChain</span>
+                        <span class="skill-chip highlight"><i class="fas fa-database"></i> ChromaDB</span>
+                        <span class="skill-chip highlight"><i class="fas fa-check-circle"></i> DeepEval (15+ Metrics)</span>
+                        <span class="skill-chip highlight"><i class="fas fa-search"></i> RAG Architecture</span>
+                        <span class="skill-chip highlight"><i class="fas fa-robot"></i> Agentic AI</span>
+                        <span class="skill-chip highlight"><i class="fas fa-brain"></i> OpenRouter & LLM APIs</span>
+                        <span class="skill-chip"><i class="fas fa-filter"></i> Cross-Encoder Reranker</span>
+                        <span class="skill-chip"><i class="fas fa-pen-nib"></i> Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Category 2: ML & Data Science (2nd position as requested) -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-chart-line"></i></div>
+                        <div>
+                            <h3 class="cat-title">ML & Data Science</h3>
+                            <span class="cat-sub">Algorithms, Analytics & Modeling</span>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <span class="skill-chip highlight"><i class="fab fa-python"></i> Python (Advanced)</span>
+                        <span class="skill-chip highlight"><i class="fas fa-cogs"></i> Scikit-Learn</span>
+                        <span class="skill-chip highlight"><i class="fas fa-table"></i> Pandas & NumPy</span>
+                        <span class="skill-chip highlight"><i class="fas fa-project-diagram"></i> Regression & Classification</span>
+                        <span class="skill-chip highlight"><i class="fas fa-chart-area"></i> Matplotlib & Seaborn</span>
+                        <span class="skill-chip"><i class="fas fa-balance-scale"></i> AUC-ROC & F1-Score</span>
+                        <span class="skill-chip"><i class="fas fa-chart-pie"></i> Exploratory Data Analysis</span>
+                        <span class="skill-chip"><i class="fas fa-sliders-h"></i> Feature Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Category 3: Deep Learning & Vision (3rd position) -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-brain"></i></div>
+                        <div>
+                            <h3 class="cat-title">Deep Learning & Vision</h3>
+                            <span class="cat-sub">Neural Networks & Processing</span>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <span class="skill-chip highlight"><i class="fas fa-fire"></i> PyTorch</span>
+                        <span class="skill-chip highlight"><i class="fas fa-cubes"></i> TensorFlow</span>
+                        <span class="skill-chip highlight"><i class="fas fa-eye"></i> OpenCV</span>
+                        <span class="skill-chip highlight"><i class="fas fa-layer-group"></i> CNN & EfficientNet-B4</span>
+                        <span class="skill-chip"><i class="fas fa-image"></i> Image Preprocessing</span>
+                        <span class="skill-chip"><i class="fas fa-vector-square"></i> Object Detection</span>
+                        <span class="skill-chip"><i class="fas fa-expand-arrows-alt"></i> Data Augmentation</span>
+                        <span class="skill-chip"><i class="fas fa-video"></i> Video Processing</span>
+                    </div>
+                </div>
+
+                <!-- Category 4: Backend, APIs & Tools (4th position) -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-tools"></i></div>
+                        <div>
+                            <h3 class="cat-title">Backend, APIs & Tools</h3>
+                            <span class="cat-sub">Engineering & Deployment</span>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <span class="skill-chip highlight"><i class="fas fa-bolt"></i> FastAPI</span>
+                        <span class="skill-chip highlight"><i class="fas fa-desktop"></i> Streamlit (Live Apps)</span>
+                        <span class="skill-chip highlight"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="skill-chip highlight"><i class="fas fa-cloud"></i> Hugging Face Hub</span>
+                        <span class="skill-chip highlight"><i class="fas fa-laptop-code"></i> Google Colab</span>
+                        <span class="skill-chip"><i class="fas fa-server"></i> RESTful APIs</span>
+                        <span class="skill-chip"><i class="fas fa-terminal"></i> Linux / CLI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Legend -->
+            <div class="skill-legend reveal">
+                <span><i class="legend-dot primary"></i> Primary Core Tech (Heavily Used in Projects)</span>
+                <span><i class="legend-dot secondary"></i> Specialized & Practical Competency</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS SECTION ===================== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">04.</span> Featured Projects
+            </h2>
+            <p class="section-subtitle reveal">
+                Production-grade AI architectures, evaluation frameworks, and deep learning systems.
+            </p>
+
+            <div class="projects-case-list">
+
+                <!-- Project 1: RAG Evaluation Suite -->
+                <article class="project-case-card reveal">
+                    <div class="project-case-header">
+                        <div class="project-title-group">
+                            <span class="project-kind">LLM • RAG • QUALITY ASSURANCE</span>
+                            <h3 class="project-name">RAG Evaluation Suite & Automated Regression Testing</h3>
+                        </div>
+                        <div class="project-badge status-done">
+                            <i class="fas fa-check-circle"></i> Benchmarked
+                        </div>
+                    </div>
+
+                    <div class="project-case-body">
+                        <div class="case-grid">
+                            <div class="case-col">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
+                                <p>Generative RAG systems frequently suffer from unseen hallucinations, degraded answer relevancy, and retrieval regressions during model or prompt updates.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                                <p>Engineered an end-to-end RAG pipeline (retriever + cross-encoder reranker + LLM generator) with a 5-level evaluation framework covering 15+ DeepEval metrics (Faithfulness, Relevancy, Context Recall/Precision, Toxicity, PII Leakage).</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-cogs"></i> Key Engineering</h4>
+                                <p>Automated regression testing with metric-based gating (pass/fail/review) to continuously validate retrieval and answer quality across pipeline iterations.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
+                                <div class="project-tags">
+                                    <span class="tag">LangChain</span>
+                                    <span class="tag">ChromaDB</span>
+                                    <span class="tag">DeepEval</span>
+                                    <span class="tag">OpenRouter</span>
+                                    <span class="tag">LLM APIs</span>
+                                    <span class="tag">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-actions">
+                            <a href="https://github.com/mohit3015/RAG_Eval_Project" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                <i class="fab fa-github"></i> View GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Deepfake Detection Web App -->
+                <article class="project-case-card reveal">
+                    <div class="project-case-header">
+                        <div class="project-title-group">
+                            <span class="project-kind">COMPUTER VISION • CNN • STREAMLIT</span>
+                            <h3 class="project-name">Deepfake Detection System & Web Application</h3>
+                        </div>
+                        <div class="project-badge status-live">
+                            <i class="fas fa-broadcast-tower"></i> Live Deployment
+                        </div>
+                    </div>
+
+                    <div class="project-case-body">
+                        <div class="case-grid">
+                            <div class="case-col">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
+                                <p>Hyper-realistic AI-manipulated faces and video media present severe trust, security, and verification challenges in digital platforms.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                                <p>Trained EfficientNet-B4 CNN architecture on the 140K Real & Fake Faces dataset. Implemented face detection, normalization, and frequency-domain artifact analysis.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-chart-line"></i> Performance & Deployment</h4>
+                                <p>Achieved <strong>91%+ validation accuracy</strong>, evaluated using AUC-ROC and F1-score. Deployed as an interactive Streamlit web app with weights hosted on Hugging Face Hub.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
+                                <div class="project-tags">
+                                    <span class="tag">PyTorch</span>
+                                    <span class="tag">EfficientNet-B4</span>
+                                    <span class="tag">OpenCV</span>
+                                    <span class="tag">Streamlit</span>
+                                    <span class="tag">Hugging Face Hub</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-actions">
+                            <a href="https://deepfake-detector-8udmw6gnlmnmqy5yse8kru.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Live Streamlit App
+                            </a>
+                            <a href="https://github.com/mohit3015/deepfake-detector" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Sign Language Recognition -->
+                <article class="project-case-card reveal">
+                    <div class="project-case-header">
+                        <div class="project-title-group">
+                            <span class="project-kind">COMPUTER VISION • REAL-TIME HCI</span>
+                            <h3 class="project-name">Real-Time Sign Language Gesture Recognition</h3>
+                        </div>
+                        <div class="project-badge status-done">
+                            <i class="fas fa-laptop-code"></i> Working Prototype
+                        </div>
+                    </div>
+
+                    <div class="project-case-body">
+                        <div class="case-grid">
+                            <div class="case-col">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
+                                <p>Bridging communication gaps for hearing and speech-impaired individuals through real-time vision-based translation of hand gestures.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                                <p>Constructed a custom CNN pipeline to recognize dynamic hand gestures and convert them to readable text/speech in real time using webcam video streams.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-database"></i> Dataset & Preprocessing</h4>
+                                <p>Created custom 5-gesture dataset (Hello, Stop, Thank You, Rock, Perfect) with hand-region bounding, 64x64 normalization, and geometric data augmentation.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
+                                <div class="project-tags">
+                                    <span class="tag">TensorFlow</span>
+                                    <span class="tag">OpenCV</span>
+                                    <span class="tag">CNN</span>
+                                    <span class="tag">NumPy</span>
+                                    <span class="tag">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-actions">
+                            <a href="https://github.com/mohit3015/sign-gesture-recognizer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Stock Market Prediction -->
+                <article class="project-case-card reveal">
+                    <div class="project-case-header">
+                        <div class="project-title-group">
+                            <span class="project-kind">MACHINE LEARNING • TIME SERIES • FINANCIAL ANALYTICS</span>
+                            <h3 class="project-name">Stock Market Prediction & Trend Analysis</h3>
+                        </div>
+                        <div class="project-badge status-done">
+                            <i class="fas fa-chart-line"></i> Completed
+                        </div>
+                    </div>
+
+                    <div class="project-case-body">
+                        <div class="case-grid">
+                            <div class="case-col">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
+                                <p>Financial market price movements are volatile and non-linear, requiring robust historical time-series analytics and predictive modeling to identify meaningful market trends.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                                <p>Extracted historical Google (GOOGL) stock data using the <strong>yfinance</strong> API. Preprocessed time-series data, computed moving averages, and implemented predictive algorithms to analyze market fluctuations.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-chart-area"></i> Analytics & Visualization</h4>
+                                <p>Performed extensive Exploratory Data Analysis (EDA) and trend visualization using Matplotlib & Seaborn to study stock market trends, volume movements, and price volatility.</p>
+                            </div>
+                            <div class="case-col">
+                                <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
+                                <div class="project-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Pandas</span>
+                                    <span class="tag">NumPy</span>
+                                    <span class="tag">Matplotlib</span>
+                                    <span class="tag">yfinance</span>
+                                    <span class="tag">Scikit-Learn</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-actions">
+                            <a href="https://github.com/mohit3015/stock-market-prediction" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EDUCATION & CERTIFICATIONS ===================== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">05.</span> Education & Certifications
+            </h2>
+            <p class="section-subtitle reveal">
+                Formal academic training and industry-recognized certifications in AI & Machine Learning.
+            </p>
+
+            <div class="edu-cert-grid">
+                <!-- Education Column -->
+                <div class="edu-column reveal">
+                    <h3 class="column-heading"><i class="fas fa-graduation-cap"></i> Academic Education</h3>
+
+                    <div class="timeline-card">
+                        <div class="card-timeline-marker"></div>
+                        <div class="card-timeline-header">
+                            <span class="timeline-period">Aug 2022 – June 2026</span>
+                            <span class="timeline-badge">In Progress</span>
+                        </div>
+                        <h4 class="timeline-degree">Bachelor of Technology in Computer Science & Engineering (AI & ML)</h4>
+                        <p class="timeline-institute">I.K. Gujral Punjab Technical University, Punjab</p>
+                        <p class="timeline-desc">
+                            Core coursework includes Machine Learning, Deep Learning Architectures, Data Structures & Algorithms, Computer Vision, Operating Systems, Database Management Systems, and Artificial Intelligence.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certifications Column -->
+                <div class="cert-column reveal">
+                    <h3 class="column-heading"><i class="fas fa-certificate"></i> Verified Certifications</h3>
+
+                    <!-- Cert 1: Oracle GenAI -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-content">
+                            <div class="cert-meta">
+                                <span class="cert-issuer">Oracle Certified</span>
+                                <span class="cert-date">Professional</span>
+                            </div>
+                            <h4 class="cert-name">Generative AI Professional</h4>
+                            <p class="cert-desc">
+                                Specialized in LLM architectures, fine-tuning, retrieval-augmented generation (RAG), and enterprise GenAI application design.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2: Python AI/ML -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="cert-content">
+                            <div class="cert-meta">
+                                <span class="cert-issuer">Technical Certification</span>
+                                <span class="cert-date">Hands-on Mastery</span>
+                            </div>
+                            <h4 class="cert-name">Python AI/ML & Deep Learning Workflows</h4>
+                            <p class="cert-desc">
+                                Hands-on practical mastery of NumPy, Pandas, Scikit-Learn, data pipelines, model optimization, and neural network training.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">06.</span> Contact Me
+            </h2>
+            <p class="section-subtitle reveal">
+                Feel free to reach out. I'm always open to discussing new opportunities, AI systems, and collaborations.
+            </p>
+
+            <div class="contact-card-centered reveal">
+                <h3 class="contact-heading">Let's build something intelligent together!</h3>
+                <p class="contact-text">
+                    Whether you have an AI/ML role to fill, a project to collaborate on, or want to discuss RAG pipelines and GenAI — my inbox is always open.
+                </p>
+
+                <!-- Quick Email Card with Direct Link & Copy -->
+                <div class="quick-email-card">
+                    <div class="quick-email-header">
+                        <span><i class="fas fa-envelope-open-text"></i> Direct Email</span>
+                        <span class="quick-email-status"><span class="status-pulse"></span> Available</span>
+                    </div>
+                    <div class="quick-email-row">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" class="quick-email-text" id="emailText" title="Click to compose in Gmail">
+                            <i class="fas fa-envelope"></i> mk5972345@gmail.com
+                        </a>
+                        <button class="btn-copy-email" id="copyEmailBtn" type="button" aria-label="Copy email address">
+                            <i class="fas fa-copy"></i> <span id="copyBtnText">Copy</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="contact-details-grid">
+                    <div class="contact-item">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-icon" title="Compose in Gmail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-email-link">mk5972345@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Giridih, Jharkhand, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <div>
+                            <h4>Work Eligibility</h4>
+                            <p>Open to Full-Time & Internships</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-socials-centered">
+                    <a href="https://github.com/mohit3015" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub" title="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohit-kumar-9a33412b3/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn" title="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Send Email via Gmail" title="Compose in Gmail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Mohit<span class="logo-bracket"> /&gt;</span>
+                </a>
+                <p class="footer-sub">AI/ML & GenAI Developer • B.Tech CSE (AI/ML)</p>
+            </div>
+
+            <div class="footer-center">
+                <p class="footer-text">
+                    Engineered with passion using Python, RAG & Agentic AI.
+                </p>
+                <p class="footer-copyright">
+                    &copy; 2026 Mohit Kumar. All rights reserved.
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://github.com/mohit3015" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-kumar-9a33412b3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Send Email via Gmail" title="Compose in Gmail"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" type="button">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
