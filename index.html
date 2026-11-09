@@ -119,6 +119,8 @@
                 <span><i class="fas fa-database"></i> ChromaDB</span>
                 <span><i class="fas fa-check-double"></i> DeepEval</span>
                 <span><i class="fas fa-eye"></i> OpenCV</span>
+                <span><i class="fas fa-hand-sparkles"></i> MediaPipe</span>
+                <span><i class="fas fa-chart-line"></i> Stacked LSTM</span>
                 <span><i class="fas fa-bolt"></i> FastAPI</span>
                 <span><i class="fas fa-chart-bar"></i> Scikit-Learn</span>
                 <span><i class="fas fa-terminal"></i> Streamlit</span>
@@ -134,6 +136,8 @@
                 <span aria-hidden="true"><i class="fas fa-database"></i> ChromaDB</span>
                 <span aria-hidden="true"><i class="fas fa-check-double"></i> DeepEval</span>
                 <span aria-hidden="true"><i class="fas fa-eye"></i> OpenCV</span>
+                <span aria-hidden="true"><i class="fas fa-hand-sparkles"></i> MediaPipe</span>
+                <span aria-hidden="true"><i class="fas fa-chart-line"></i> Stacked LSTM</span>
                 <span aria-hidden="true"><i class="fas fa-bolt"></i> FastAPI</span>
                 <span aria-hidden="true"><i class="fas fa-chart-bar"></i> Scikit-Learn</span>
                 <span aria-hidden="true"><i class="fas fa-terminal"></i> Streamlit</span>
@@ -398,6 +402,7 @@
                         <span class="skill-chip highlight"><i class="fab fa-python"></i> Python (Advanced)</span>
                         <span class="skill-chip highlight"><i class="fas fa-cogs"></i> Scikit-Learn</span>
                         <span class="skill-chip highlight"><i class="fas fa-table"></i> Pandas & NumPy</span>
+                        <span class="skill-chip highlight"><i class="fas fa-chart-line"></i> Time Series & LSTMs</span>
                         <span class="skill-chip highlight"><i class="fas fa-project-diagram"></i> Regression & Classification</span>
                         <span class="skill-chip highlight"><i class="fas fa-chart-area"></i> Matplotlib & Seaborn</span>
                         <span class="skill-chip"><i class="fas fa-balance-scale"></i> AUC-ROC & F1-Score</span>
@@ -417,9 +422,11 @@
                     </div>
                     <div class="skill-chips-list">
                         <span class="skill-chip highlight"><i class="fas fa-fire"></i> PyTorch</span>
-                        <span class="skill-chip highlight"><i class="fas fa-cubes"></i> TensorFlow</span>
+                        <span class="skill-chip highlight"><i class="fas fa-cubes"></i> TensorFlow / Keras</span>
                         <span class="skill-chip highlight"><i class="fas fa-eye"></i> OpenCV</span>
+                        <span class="skill-chip highlight"><i class="fas fa-hand-sparkles"></i> MediaPipe Hands</span>
                         <span class="skill-chip highlight"><i class="fas fa-layer-group"></i> CNN & EfficientNet-B4</span>
+                        <span class="skill-chip highlight"><i class="fas fa-volume-up"></i> pyttsx3 (Audio TTS)</span>
                         <span class="skill-chip"><i class="fas fa-image"></i> Image Preprocessing</span>
                         <span class="skill-chip"><i class="fas fa-vector-square"></i> Object Detection</span>
                         <span class="skill-chip"><i class="fas fa-expand-arrows-alt"></i> Data Augmentation</span>
@@ -472,7 +479,7 @@
                 <article class="project-case-card reveal">
                     <div class="project-case-header">
                         <div class="project-title-group">
-                            <span class="project-kind">LLM • RAG • QUALITY ASSURANCE</span>
+                            <span class="project-kind">LLM • RAG • QUALITY ASSURANCE & CI/CD</span>
                             <h3 class="project-name">RAG Evaluation Suite & Automated Regression Testing</h3>
                         </div>
                         <div class="project-badge status-done">
@@ -484,25 +491,25 @@
                         <div class="case-grid">
                             <div class="case-col">
                                 <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
-                                <p>Generative RAG systems frequently suffer from unseen hallucinations, degraded answer relevancy, and retrieval regressions during model or prompt updates.</p>
+                                <p>Generative RAG systems frequently suffer from unseen hallucinations, context stuffing, and retrieval regressions during pipeline and prompt updates.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                                <p>Engineered an end-to-end RAG pipeline (retriever + cross-encoder reranker + LLM generator) with a 5-level evaluation framework covering 15+ DeepEval metrics (Faithfulness, Relevancy, Context Recall/Precision, Toxicity, PII Leakage).</p>
+                                <p>Engineered an end-to-end RAG architecture with ChromaDB (MiniLM-L6-v2), Cross-Encoder reranking (ms-marco), and LLM generation (nemotron-3-super-120b) coupled with a 5-tier evaluation framework across 15+ metrics.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-cogs"></i> Key Engineering</h4>
-                                <p>Automated regression testing with metric-based gating (pass/fail/review) to continuously validate retrieval and answer quality across pipeline iterations.</p>
+                                <p>Automated CI/CD regression gating (PASS/REVIEW/FAIL) evaluating Component, Pipeline (RAG Triad), Application (G-Eval), Safety (PII, Scope), and Telemetry (P95 Latency, TTFT).</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
                                 <div class="project-tags">
                                     <span class="tag">LangChain</span>
                                     <span class="tag">ChromaDB</span>
-                                    <span class="tag">DeepEval</span>
+                                    <span class="tag">DeepEval (15+ Metrics)</span>
+                                    <span class="tag">Cross-Encoder</span>
                                     <span class="tag">OpenRouter</span>
-                                    <span class="tag">LLM APIs</span>
-                                    <span class="tag">Python</span>
+                                    <span class="tag">CI/CD Quality Gates</span>
                                 </div>
                             </div>
                         </div>
@@ -519,7 +526,7 @@
                 <article class="project-case-card reveal">
                     <div class="project-case-header">
                         <div class="project-title-group">
-                            <span class="project-kind">COMPUTER VISION • CNN • STREAMLIT</span>
+                            <span class="project-kind">COMPUTER VISION • CNN • LIVE WEB APP</span>
                             <h3 class="project-name">Deepfake Detection System & Web Application</h3>
                         </div>
                         <div class="project-badge status-live">
@@ -568,7 +575,7 @@
                 <article class="project-case-card reveal">
                     <div class="project-case-header">
                         <div class="project-title-group">
-                            <span class="project-kind">COMPUTER VISION • REAL-TIME HCI</span>
+                            <span class="project-kind">COMPUTER VISION • REAL-TIME HCI & AUDIO TTS</span>
                             <h3 class="project-name">Real-Time Sign Language Gesture Recognition</h3>
                         </div>
                         <div class="project-badge status-done">
@@ -580,23 +587,24 @@
                         <div class="case-grid">
                             <div class="case-col">
                                 <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
-                                <p>Bridging communication gaps for hearing and speech-impaired individuals through real-time vision-based translation of hand gestures.</p>
+                                <p>Bridging communication gaps for hearing and speech-impaired individuals through real-time vision-based translation of hand gestures to text and audio speech.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                                <p>Constructed a custom CNN pipeline to recognize dynamic hand gestures and convert them to readable text/speech in real time using webcam video streams.</p>
+                                <p>Constructed a real-time vision-to-speech pipeline using MediaPipe 21 hand landmarks, custom adaptive square ROI cropping (preventing aspect ratio distortion), and a 3-block Conv2D network.</p>
                             </div>
                             <div class="case-col">
-                                <h4><i class="fas fa-database"></i> Dataset & Preprocessing</h4>
-                                <p>Created custom 5-gesture dataset (Hello, Stop, Thank You, Rock, Perfect) with hand-region bounding, 64x64 normalization, and geometric data augmentation.</p>
+                                <h4><i class="fas fa-volume-up"></i> Speech & Stability</h4>
+                                <p>Trained on custom 5-gesture dataset (Hello, Stop, Thank You, Rock, Perfect). Engineered an asynchronous background TTS audio thread (pyttsx3) with a 10-frame sliding stability buffer and 80% confidence threshold.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
                                 <div class="project-tags">
-                                    <span class="tag">TensorFlow</span>
+                                    <span class="tag">MediaPipe</span>
+                                    <span class="tag">TensorFlow / Keras</span>
                                     <span class="tag">OpenCV</span>
-                                    <span class="tag">CNN</span>
-                                    <span class="tag">NumPy</span>
+                                    <span class="tag">CNN Architecture</span>
+                                    <span class="tag">pyttsx3 (Audio TTS)</span>
                                     <span class="tag">Python</span>
                                 </div>
                             </div>
@@ -614,7 +622,7 @@
                 <article class="project-case-card reveal">
                     <div class="project-case-header">
                         <div class="project-title-group">
-                            <span class="project-kind">MACHINE LEARNING • TIME SERIES • FINANCIAL ANALYTICS</span>
+                            <span class="project-kind">MACHINE LEARNING • TIME SERIES • STACKED LSTM</span>
                             <h3 class="project-name">Stock Market Prediction & Trend Analysis</h3>
                         </div>
                         <div class="project-badge status-done">
@@ -626,25 +634,25 @@
                         <div class="case-grid">
                             <div class="case-col">
                                 <h4><i class="fas fa-exclamation-triangle"></i> Problem</h4>
-                                <p>Financial market price movements are volatile and non-linear, requiring robust historical time-series analytics and predictive modeling to identify meaningful market trends.</p>
+                                <p>Financial market price movements are volatile and non-linear, requiring robust historical time-series analytics and deep sequential modeling to capture temporal dependencies.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                                <p>Extracted historical Google (GOOGL) stock data using the <strong>yfinance</strong> API. Preprocessed time-series data, computed moving averages, and implemented predictive algorithms to analyze market fluctuations.</p>
+                                <p>Ingested 10+ years of Google (GOOG) historical financial data via yfinance. Preprocessed data with MinMax scaling, computed 100/200-day moving averages (MA100/MA200), and built a 100-step sliding lookback window.</p>
                             </div>
                             <div class="case-col">
-                                <h4><i class="fas fa-chart-area"></i> Analytics & Visualization</h4>
-                                <p>Performed extensive Exploratory Data Analysis (EDA) and trend visualization using Matplotlib & Seaborn to study stock market trends, volume movements, and price volatility.</p>
+                                <h4><i class="fas fa-brain"></i> Neural Architecture</h4>
+                                <p>Engineered a 4-layer Stacked LSTM network (50 &rarr; 60 &rarr; 80 &rarr; 120 units) with sequential Dropout regularization (0.2&ndash;0.5) to capture long-term trends and forecast future closing prices.</p>
                             </div>
                             <div class="case-col">
                                 <h4><i class="fas fa-microchip"></i> Tech Stack</h4>
                                 <div class="project-tags">
-                                    <span class="tag">Python</span>
-                                    <span class="tag">Pandas</span>
-                                    <span class="tag">NumPy</span>
-                                    <span class="tag">Matplotlib</span>
+                                    <span class="tag">Stacked LSTM</span>
+                                    <span class="tag">TensorFlow / Keras</span>
                                     <span class="tag">yfinance</span>
-                                    <span class="tag">Scikit-Learn</span>
+                                    <span class="tag">Time Series</span>
+                                    <span class="tag">Pandas & NumPy</span>
+                                    <span class="tag">Matplotlib</span>
                                 </div>
                             </div>
                         </div>
