@@ -1,142 +1,143 @@
-# Hi, I'm Mohit Kumar
+# 👨‍💻 Mohit Kumar | AI/ML & GenAI Developer Portfolio
 
-### AI/ML Enthusiast | Python Developer | Aspiring AI Engineer
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-purple?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mohit3015.github.io/Mohit-Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-mohit3015-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohit3015)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohit%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohit-kumar-9a33412b3/)
+[![Email](https://img.shields.io/badge/Email-mk5972345%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mk5972345@gmail.com)
 
-Welcome to my personal portfolio repository!
+Welcome to the official repository of my personal portfolio website! Designed with a **Cyber Dark Theme** featuring purple/blue/cyan gradient accents, interactive RAG request trace simulations, and structured project engineering case studies.
 
-I'm a B.Tech Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. I enjoy building projects using Python, Machine Learning, Deep Learning, and AI technologies.
+---
 
-## 🌐 My Portfolio
+## 🌐 Live Website
 
-Explore my personal portfolio to learn more about my skills, projects, education, and experience.
+🔗 **Direct Link:** [**https://mohit3015.github.io/Mohit-Portfolio/**](https://mohit3015.github.io/Mohit-Portfolio/)
 
-**Live Portfolio:** [https://mohit3015.github.io/Mohit-Portfolio/]
+---
+
+## 📌 Table of Contents
+- [About Me](#-about-me)
+- [Portfolio Features & Architecture](#-portfolio-features--architecture)
+- [Technical Skills](#-technical-skills)
+- [Featured Projects](#-featured-projects)
+- [Education & Certifications](#-education--certifications)
+- [File & Folder Structure](#-file--folder-structure)
+- [Local Development Setup](#-local-development-setup)
+- [Connect With Me](#-connect-with-me)
+
+---
 
 ## 👨‍💻 About Me
 
-- 🎓 B.Tech – Computer Science & Engineering (AI & ML)
-- 💻 Interested in Artificial Intelligence and Machine Learning
-- 🐍 Practicing Python and SQL
-- 🤖 Exploring Generative AI, LLMs RAG and Agentic AI
-- 🚀 Passionate about building real-world AI applications
+Namaste! I'm **Mohit Kumar**, a passionate B.Tech Computer Science Engineering student specializing in **Artificial Intelligence and Machine Learning (AI & ML)** at I.K. Gujral Punjab Technical University.
+
+- 🤖 **Core Focus:** Generative AI, Retrieval-Augmented Generation (RAG) Systems, and Agentic AI Workflows.
+- 🔬 **Evaluation:** Measuring RAG faithfulness, answer relevancy, and context recall using LLM-as-a-judge frameworks (**DeepEval**).
+- 👁️ **Computer Vision:** CNN architectures (EfficientNet-B4 for deepfake detection, MediaPipe hand gesture recognition).
+- 📊 **Data Science:** Predictive modeling, EDA, and time-series analysis (Stock Market forecasting with LSTMs).
+- 🚀 **Goal:** Building end-to-end, production-ready intelligent AI applications that solve real-world challenges.
+
+---
+
+## ✨ Portfolio Features & Architecture
+
+* **Interactive RAG Request Trace Simulator:** A live 5-stage interactive pipeline (`Query` $\rightarrow$ `Embed` $\rightarrow$ `Retrieve` $\rightarrow$ `Rerank` $\rightarrow$ `Evaluate & Generate`) demonstrating chunk cosine similarity scores, cross-encoder filtering, and DeepEval verification metrics.
+* **Modern Cyber Dark Theme:** High-contrast dark backgrounds (`#0a0a0f`, `#101018`, `#151524`) with smooth purple (`#8b5cf6`), electric blue (`#3b82f6`), and cyan (`#06b6d4`) glowing accents.
+* **Case Study Project Layouts:** Every project features structured breakdowns: **Problem $\rightarrow$ Approach $\rightarrow$ Key Engineering $\rightarrow$ Tech Stack $\rightarrow$ Source/Demo Links**.
+* **Dynamic Typing Effect:** Multi-phrase role typewriter showcasing development competencies.
+* **Canvas Particles & Ambient Lighting:** Ambient floating gradient blobs and lightweight particle float animations.
+* **One-Click Instant Copy Email:** Clipboard API integration with instant visual feedback and direct webmail composition.
+* **100% Mobile Responsive:** Optimized across mobile, tablet, and desktop viewports.
+
+---
 
 ## 🛠️ Technical Skills
 
-**Programming Languages**
-- Python
-- SQL
+The portfolio organizes technical capabilities into 4 structured engineering domains:
 
-**AI & Machine Learning**
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- TensorFlow & Keras
-- PyTorch
-- OpenCV
-- MediaPipe
-- Scikit-learn
-- Data Science
-- LangChain & RAG
-- Generative AI & Agentic AI
+### 1. Generative AI & LLMs (Retrieval, Agents & Evaluation)
+* **Core:** LangChain, ChromaDB, DeepEval (15+ Metrics), RAG Architecture, Agentic AI, OpenRouter & LLM APIs.
+* **Specialized:** Cross-Encoder Reranker, Prompt Engineering, Context Engineering.
 
-**Tools & Platforms**
-- Git & GitHub
-- VS Code
-- Google Colab
+### 2. Machine Learning & Data Science (Algorithms, Analytics & Modeling)
+* **Core:** Python (Advanced), Scikit-Learn, Pandas & NumPy, Regression & Classification, Matplotlib & Seaborn.
+* **Specialized:** AUC-ROC & F1-Score, Exploratory Data Analysis (EDA), Feature Engineering.
+
+### 3. Deep Learning & Computer Vision (Neural Networks & Processing)
+* **Core:** PyTorch, TensorFlow, OpenCV, CNN & EfficientNet-B4.
+* **Specialized:** Image Preprocessing, Object Detection, Data Augmentation, Video Processing.
+
+### 4. Backend, APIs & Developer Tools (Engineering & Deployment)
+* **Core:** FastAPI, Streamlit (Live Apps), Git & GitHub, Hugging Face Hub, Google Colab.
+* **Specialized:** RESTful APIs, Linux / CLI.
+
+---
 
 ## 🚀 Featured Projects
 
-### 1. RAG Evaluation Suite
-- Built an end-to-end RAG pipeline.
-- Retriever and cross-encoder reranking.
-- LLM-based answer generation.
-- Evaluated retrieval and answer quality using DeepEval metrics.
-- Implemented metrics such as Faithfulness and Answer Relevancy.
+| Project | Domain | Key Stack | Live / Source Links |
+| :--- | :--- | :--- | :--- |
+| **RAG Evaluation Suite** | LLM • RAG • Quality Assurance | LangChain, ChromaDB, DeepEval, OpenRouter, Python | [💻 GitHub Repo](https://github.com/mohit3015/RAG_Eval_Project) |
+| **Deepfake Detection Web App** | Computer Vision • CNN • Live Web App | PyTorch, EfficientNet-B4, OpenCV, Streamlit, Hugging Face | [🌐 Live Streamlit App](https://deepfake-detector-8udmw6gnlmnmqy5yse8kru.streamlit.app/) • [💻 Source Code](https://github.com/mohit3015/deepfake-detector) |
+| **Sign Language Recognition** | Computer Vision • Real-Time HCI | TensorFlow, OpenCV, MediaPipe, CNN, Python | [💻 GitHub Repo](https://github.com/mohit3015/sign-gesture-recognizer) |
+| **Stock Market Prediction** | Machine Learning • Time Series • Finance | Python, Pandas, NumPy, Matplotlib, yfinance, LSTM | [💻 GitHub Repo](https://github.com/mohit3015/stock-market-prediction) |
 
-**Technologies:** Python, LangChain, ChromaDB, Hugging Face, DeepEval, LLMs
+---
 
-**Repository:** [https://github.com/mohit3015/RAG_Eval_Project]
+## 🎓 Education & Certifications
 
-### 2. Sign Language Recognition System
-- Real-time hand gesture recognition.
-- MediaPipe hand landmarks.
-- CNN-based gesture classification.
-- Python and OpenCV.
+### 🏛️ Education
+* **Bachelor of Technology (B.Tech) — Computer Science & Engineering (AI & ML)**  
+  *I.K. Gujral Punjab Technical University, Punjab (Aug 2022 – June 2026)*  
+  *Relevant Focus Areas:* Machine Learning, Deep Learning, Data Structures & Algorithms, Computer Vision, Operating Systems, DBMS, Generative AI.
 
-**Technologies:** Python, TensorFlow, Keras, MediaPipe, OpenCV, CNN
+### 🏅 Verified Certifications
+* **Generative AI Professional** — *Oracle Certified* (LLM architectures, fine-tuning, RAG enterprise applications).
+* **Python AI/ML & Deep Learning Workflows** — *Hands-on Mastery* (Data pipelines, model optimization, neural networks).
 
-**Repository:** [https://github.com/mohit3015/sign-gesture-recognizer]
+---
 
-### 3. Deepfake Detection System
-- Deepfake image detection system.
-- Built using the EfficientNet-B4 CNN architecture.
-- PyTorch-based deep learning implementation.
-- Trained to distinguish between real and fake faces.
-- Supports image-based deepfake detection.
-- Integrated OpenCV for image processing.
-- Deployed as a live web application using Streamlit.
-- Model weights hosted using Hugging Face Hub.
+## 📁 File & Folder Structure
 
-**Technologies:** Python, PyTorch, EfficientNet-B4, OpenCV, Streamlit, Hugging Face
+```
+Mohit-Portfolio/
+│
+├── index.html                           # Main portfolio HTML with semantic markup
+├── Mohit.jpg                            # Profile photo
+├── Mohit_Kumar_Resume_Updated01.pdf     # Downloadable Resume
+├── README.md                            # Repository documentation
+│
+├── css/
+│   └── style.css                        # Cyber dark theme styles & animations
+│
+└── js/
+    └── script.js                        # RAG trace simulator, typing effect, copy email
+```
 
-**Repository:** [https://github.com/mohit3015/deepfake-detector]
+---
 
-**🌐 Live Demo:** [Open Deepfake Detection App](https://deepfake-detector-8udmw6gnlmnmqy5yse8kru.streamlit.app/)
+## 💻 Local Development Setup
 
-### 4. Stock Market Prediction
+To run and view this portfolio locally on your machine:
 
-- Built a deep learning model for stock price prediction.
-- Used historical Google (GOOG) stock market data.
-- Retrieved stock data using the YFinance library.
-- Applied data preprocessing and Min-Max scaling.
-- Used a 100-day time window to prepare sequential training data.
-- Built an LSTM-based neural network for stock price prediction.
-- Visualized and compared stock price data and predictions.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mohit3015/Mohit-Portfolio.git
+   cd Mohit-Portfolio
+   ```
 
-**Technologies:** Python, TensorFlow, Keras, LSTM, NumPy, Pandas, Matplotlib, Scikit-learn, YFinance
+2. **Open with Live Server:**
+   * If using **VS Code**, install the *Live Server* extension, right-click `index.html` and choose **"Open with Live Server"**.
+   * Or simply double-click `index.html` to open it in your favorite browser.
 
-**Repository:** [https://github.com/mohit3015/stock-market-prediction]
-
-
-## 🎓 Education
-
-### Bachelor of Technology (B.Tech)
-**Computer Science & Engineering (CSE)**  
-*Specialization: Artificial Intelligence & Machine Learning (AI & ML)*
-
-🏫 **Gulzar Group of Institutes**  
-🎓 **Affiliated with I.K. Gujral Punjab Technical University (IKGPTU)**
-
-**Relevant Focus Areas:** Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, LangChain & RAG, Generative AI & Agentic AI and Data Science.
+---
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/mohit3015
-- LinkedIn: [https://www.linkedin.com/in/mohit-kumar-9a33412b3/]
-- Email: [mk5972345@gmail.com]
+- 🌐 **Live Portfolio:** [https://mohit3015.github.io/Mohit-Portfolio/](https://mohit3015.github.io/Mohit-Portfolio/)
+- 🐙 **GitHub:** [@mohit3015](https://github.com/mohit3015)
+- 💼 **LinkedIn:** [Mohit Kumar](https://www.linkedin.com/in/mohit-kumar-9a33412b3/)
+- 📧 **Direct Email:** [mk5972345@gmail.com](mailto:mk5972345@gmail.com)
 
 ---
-## 📁 Portfolio Structure
-
-```text
-Mohit-Portfolio/
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── Mohit.jpg
-├── Mohit_Kumar_Resume_Updated01.pdf
-├── index.html
-└── README.md
-```
-
-
-⭐ If you like my portfolio, consider giving this repository a star!
-
-
-Thank you for visiting my portfolio repository!
-
-**Always Learning | Always Building | Always Improving**
+⭐ *If you like my portfolio, please consider giving this repository a star!*
