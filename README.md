@@ -5,7 +5,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohit%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohit-kumar-9a33412b3/)
 [![Email](https://img.shields.io/badge/Email-mk5972345%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=mk5972345@gmail.com)
 
-Welcome to the official repository of **Mohit Kumar's Personal Portfolio Website**! Engineered with a modern **Cyber Dark Theme** featuring glowing purple (`#8b5cf6`), electric blue (`#3b82f6`), and cyan (`#06b6d4`) accents, an interactive **RAG Request Trace Simulator**, modular case studies, and verified engineering achievements.
+
+Welcome to the official repository of **Mohit Kumar's Personal Portfolio Website**! Built with a modern and interactive design, this portfolio showcases my work in **Artificial Intelligence, Machine Learning, Generative AI, and RAG systems**.
+
+It features an interactive **RAG Request Trace Simulator**, detailed project case studies, technical skills, certifications, and engineering projects.
 
 ---
 
@@ -124,13 +127,13 @@ Mohit's Engineering Stack
 ### 🏛️ Academic Education
 * **Bachelor of Technology (B.Tech) — Computer Science & Engineering (AI & ML)**  
   *I.K. Gujral Punjab Technical University, Punjab (2022 – 2026)*  
-  *Core Focus:* Machine Learning, Deep Learning, Data Structures & Algorithms, Computer Vision, Operating Systems, DBMS, Generative AI.
+  *Core Focus:* Machine Learning, Deep Learning, Computer Vision, Generative AI, LLMs & RAG.
 
 ### 🏅 Verified Certifications
-* **Generative AI Professional** — *Oracle Certified*  
-  *Enterprise LLM architectures, fine-tuning, vector retrieval, and RAG enterprise workflows.*
-* **Python AI/ML & Deep Learning Workflows** — *Hands-on Mastery*  
-  *NumPy, Pandas, Scikit-Learn, data pipelines, model optimization, and neural network training.*
+* **Introduction to Generative AI** — *Intel AI Global Impact Festival (2024)*  
+  *Completed a micro-learning module covering Generative AI fundamentals.
+* **Python AI/ML Program** — *nfotechmon Pvt. Ltd. (Dec 2025 – May 2026)*  
+  *Hands-on learning in Python, NumPy, Pandas, Scikit-Learn, AI/ML and Deep Learning workflows.*
 
 ---
 
@@ -152,27 +155,6 @@ Mohit-Portfolio/
 
 ---
 
-## 💻 Local Setup & Development
-
-To clone and explore the portfolio locally on your computer:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/mohit3015/Mohit-Portfolio.git
-
-# 2. Navigate to project root
-cd Mohit-Portfolio
-
-# 3. Open in your browser
-# Option A: Directly open index.html
-start index.html
-
-# Option B: Run via a simple local Python server
-python -m http.server 8000
-# Then visit http://localhost:8000 in your browser
-```
-
----
 
 ## 📫 Connect With Me
 
