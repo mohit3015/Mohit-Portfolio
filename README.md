@@ -80,6 +80,7 @@ The portfolio embeds an interactive real-time visualizer that explains how enter
 | **Deepfake Detection Web App** | Computer Vision • Deep Learning | PyTorch, EfficientNet-B4, OpenCV, Streamlit, Hugging Face | [🌐 Live Streamlit App](https://deepfake-detector-8udmw6gnlmnmqy5yse8kru.streamlit.app/) • [💻 Source Code](https://github.com/mohit3015/deepfake-detector) |
 | **Real-Time Sign Language Recognizer** | Computer Vision • Real-Time HCI | MediaPipe (21 Landmarks), CNN (3 Blocks), pyttsx3 Audio TTS | [💻 GitHub Repo](https://github.com/mohit3015/sign-gesture-recognizer) |
 | **Stock Market Prediction & Trends** | Machine Learning • Time Series | 4-Layer Stacked LSTM, yfinance, MA100/MA200, Matplotlib | [💻 GitHub Repo](https://github.com/mohit3015/stock-market-prediction) |
+| **Bengaluru House Price Predictor** | Machine Learning • Regression • UI | Random Forest, GridSearchCV, Streamlit, Altair | [💻 GitHub Repo](https://github.com/mohit3015/Banglore_House_Price_Prediction) |
 
 ### 1. [RAG Evaluation Suite & Automated Regression Testing](https://github.com/mohit3015/RAG_Eval_Project)
 - **Problem:** Generative RAG systems frequently suffer from silent hallucinations, context stuffing, and retrieval regressions upon model/prompt modifications.
@@ -100,6 +101,11 @@ The portfolio embeds an interactive real-time visualizer that explains how enter
 - **Problem:** Volatile, non-linear financial time-series data requires sequential dependency modeling to identify price trends.
 - **Approach:** Ingested 10+ years of Google (GOOG) financial data with `yfinance`, engineered 100/200-day Moving Averages (MA100/MA200), and structured a 100-step sliding lookback window with MinMax normalization.
 - **Neural Network:** Constructed a 4-layer **Stacked LSTM** network (50 $\rightarrow$ 60 $\rightarrow$ 80 $\rightarrow$ 120 units) with sequential Dropout regularization (0.2–0.5) to forecast future closing price trends.
+
+### 5. [Bengaluru House Price Predictor & Market Analytics](https://github.com/mohit3015/Banglore_House_Price_Prediction)
+- **Problem:** Real estate property valuation in volatile metro markets requires multi-variable modeling across localities, square footage, and configurations.
+- **Approach:** Ingested 10,230+ residential property records, handled categorical location encoding, and trained a **Random Forest Regressor** with 5-fold `GridSearchCV` optimization (n_estimators=300, max_depth=6).
+- **Features & Deployment:** Achieved **83.6% R² accuracy** (MAE: ~14.1 L). Developed an interactive Streamlit web application with 0-lag caching, Lakhs/Crores valuation, price/sqft metric, 20-year EMI calculator, and interactive market analytics charts.
 
 ---
 
