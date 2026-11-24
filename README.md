@@ -76,33 +76,40 @@ The portfolio embeds an interactive real-time visualizer that explains how enter
 
 | Project | Domain | Architecture / Key Tech | Live Demo / Source Code |
 | :--- | :--- | :--- | :--- |
+| **TechNova AI Sales Assistant** | GenAI • Hybrid RAG • Live Web App | FastAPI, ChromaDB, Cross-Encoder, SQLite, Groq Llama 3, Streamlit, Docker | [🌐 Live Streamlit App](https://technova-ai-sales-assistant-krri4w97poexshlnkqwpou.streamlit.app/) • [💻 Source Code](https://github.com/mohit3015/TechNova-AI-Sales-Assistant) |
 | **RAG Evaluation Suite** | LLM • RAG • Quality Assurance | LangChain, ChromaDB, DeepEval, Cross-Encoder, OpenRouter | [💻 GitHub Repo](https://github.com/mohit3015/RAG_Eval_Project) |
 | **Deepfake Detection Web App** | Computer Vision • Deep Learning | PyTorch, EfficientNet-B4, OpenCV, Streamlit, Hugging Face | [🌐 Live Streamlit App](https://deepfake-detector-8udmw6gnlmnmqy5yse8kru.streamlit.app/) • [💻 Source Code](https://github.com/mohit3015/deepfake-detector) |
 | **Real-Time Sign Language Recognizer** | Computer Vision • Real-Time HCI | MediaPipe (21 Landmarks), CNN (3 Blocks), pyttsx3 Audio TTS | [💻 GitHub Repo](https://github.com/mohit3015/sign-gesture-recognizer) |
 | **Stock Market Prediction & Trends** | Machine Learning • Time Series | 4-Layer Stacked LSTM, yfinance, MA100/MA200, Matplotlib | [💻 GitHub Repo](https://github.com/mohit3015/stock-market-prediction) |
 | **Bengaluru House Price Predictor** | Machine Learning • Regression • Live App | Random Forest, GridSearchCV, Streamlit, Altair | [🌐 Live Streamlit App](https://banglorehousepriceprediction-cxd7x5fsvydqdjmp8ubng8.streamlit.app/) • [💻 Source Code](https://github.com/mohit3015/Banglore_House_Price_Prediction) |
 
-### 1. [RAG Evaluation Suite & Automated Regression Testing](https://github.com/mohit3015/RAG_Eval_Project)
+### 1. [TechNova AI Sales Assistant & CRM Copilot](https://github.com/mohit3015/TechNova-AI-Sales-Assistant)
+- **Problem:** Conventional retail AI chatbots frequently hallucinate product pricing, recommend out-of-stock items, and lose conversational context during multi-turn shopping dialogues.
+- **Approach:** Engineered a Dual-Database architecture decoupling authoritative relational SQL records (exact prices, live stock, hardware specs) from ChromaDB semantic embeddings (suitability profiles, warranty terms), reranked via Cross-Encoder (`ms-marco-MiniLM-L-6-v2`).
+- **Key Engineering & Benchmarks:** Implemented multi-turn session memory carryover, automated CRM lead capture, Docker volume persistence, and an automated 25-scenario evaluation suite achieving **100% Price Accuracy** (zero hallucination), **100% Recall@K**, and **~1,070 ms P50 latency**.
+- **Live Deployment:** Deployed interactive 3-tab CRM & Copilot web dashboard on Streamlit Community Cloud: **[🌐 Live Streamlit App](https://technova-ai-sales-assistant-krri4w97poexshlnkqwpou.streamlit.app/)**
+
+### 2. [RAG Evaluation Suite & Automated Regression Testing](https://github.com/mohit3015/RAG_Eval_Project)
 - **Problem:** Generative RAG systems frequently suffer from silent hallucinations, context stuffing, and retrieval regressions upon model/prompt modifications.
 - **Approach:** Modular RAG architecture combining ChromaDB vector search (`all-MiniLM-L6-v2`), cross-encoder reranking (`ms-marco-MiniLM-L-6-v2`), and `nvidia/nemotron-3-super-120b` via OpenRouter.
 - **Evaluation Framework:** 5 evaluation tiers (Component, Pipeline, Application, Safety, Telemetry) across 15+ DeepEval metrics with automated regression CI/CD quality gates (`compare.py` $\rightarrow$ PASS / REVIEW / FAIL).
 
-### 2. [Deepfake Detection System & Web Application](https://github.com/mohit3015/deepfake-detector)
+### 3. [Deepfake Detection System & Web Application](https://github.com/mohit3015/deepfake-detector)
 - **Problem:** AI-generated facial manipulations present critical security and misinformation risks.
 - **Approach:** Trained **EfficientNet-B4** CNN architecture on the 140K Real & Fake Faces dataset, detecting subtle frequency-domain boundary artifacts.
 - **Results & Deployment:** Achieved **91%+ validation accuracy**, evaluated with AUC-ROC and F1-scores. Deployed live on Streamlit Cloud with model weights hosted on Hugging Face Hub.
 
-### 3. [Real-Time Sign Language Gesture Recognition](https://github.com/mohit3015/sign-gesture-recognizer)
+### 4. [Real-Time Sign Language Gesture Recognition](https://github.com/mohit3015/sign-gesture-recognizer)
 - **Problem:** High communication barriers for speech- and hearing-impaired communities.
 - **Approach:** Real-time webcam pipeline combining **MediaPipe** 21 hand landmark tracking with custom adaptive square ROI cropping (eliminating 64x64 aspect ratio distortion).
 - **Architecture & Audio:** 3-block Conv2D deep network (32 $\rightarrow$ 64 $\rightarrow$ 128 filters) coupled with an asynchronous multithreaded **pyttsx3** Text-to-Speech (TTS) engine, 10-frame sliding stability buffer, and 80% confidence threshold.
 
-### 4. [Stock Market Prediction & Trend Analysis](https://github.com/mohit3015/stock-market-prediction)
+### 5. [Stock Market Prediction & Trend Analysis](https://github.com/mohit3015/stock-market-prediction)
 - **Problem:** Volatile, non-linear financial time-series data requires sequential dependency modeling to identify price trends.
 - **Approach:** Ingested 10+ years of Google (GOOG) financial data with `yfinance`, engineered 100/200-day Moving Averages (MA100/MA200), and structured a 100-step sliding lookback window with MinMax normalization.
 - **Neural Network:** Constructed a 4-layer **Stacked LSTM** network (50 $\rightarrow$ 60 $\rightarrow$ 80 $\rightarrow$ 120 units) with sequential Dropout regularization (0.2–0.5) to forecast future closing price trends.
 
-### 5. [Bengaluru House Price Predictor](https://github.com/mohit3015/Banglore_House_Price_Prediction)
+### 6. [Bengaluru House Price Predictor](https://github.com/mohit3015/Banglore_House_Price_Prediction)
 - **Problem:** Real estate property valuation in volatile metro markets requires multi-variable modeling across localities, square footage, and configurations.
 - **Approach:** Ingested 10,230+ residential property records, handled categorical location encoding, and trained a **Random Forest Regressor** with 5-fold `GridSearchCV` optimization (n_estimators=300, max_depth=6).
 - **Features & Deployment:** Achieved **83.6% R² accuracy** (MAE: ~14.1 L). Developed an interactive Streamlit web application with 0-lag caching, Lakhs/Crores valuation, price/sqft metric, 20-year EMI calculator, and interactive market analytics charts. **[🌐 Live Streamlit App](https://banglorehousepriceprediction-cxd7x5fsvydqdjmp8ubng8.streamlit.app/)**
